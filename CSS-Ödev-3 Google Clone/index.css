@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  min-height: auto;
+  display: block;
+}
+
+:root {
+  --bg-color: rgba(32, 33, 36, 1);
+  --secondary-bg-color: rgb(48, 49, 52);
+  --primary-color: #999da2;
+  --secondary-color: #ffffff;
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+
+.nav-link,
+.account-icon {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.footer__item,
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  /* font-size: 0.8125rem; */
+  /* font-size: 11px; */
+  font-size: 0.6875rem;
+}
+
+.sub-container {
+  /* font-size: 0.875rem; */
+}
+
+.submit-btn {
+  color: var(--secondary-color);
+  background-color: var(--secondary-bg-color);
+  font-size: 14px;
+}
+
+.language-selection {
+  font-size: 0.775rem;
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+.current__location {
+  font-size: 0.8rem;
+  color: var(--primary-color);
+}
+
+.carbon-text,
+.footer__link-left,
+.footer__link-right,
+.footer__item {
+  /* font-size: 0.875rem; */
+  font-size: 0.75rem;
+  color: var(--primary-color);
+}
+
+.language-text {
+  font-size: 0.7rem;
+  color: var(--primary-color);
+}
+
+a,
+.carbon-text {
+  text-decoration: none;
+}
+
+/* Layout */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+}
+
+.fa-bars {
+  padding: 7px;
+  border-radius: 50px;
+}
+
+.nav-item {
+  padding-left: 0.9375em;
+}
+
+.account-img {
+  border: 0px solid white;
+  border-radius: 50px;
+  height: 2em;
+  object-fit: cover;
+}
+
+.text-area {
+  color: var(--secondary-color);
+  background-color: transparent;
+  padding: 0.8em 1em;
+  padding-bottom: 1.0625em;
+  border: 0;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+
+.search-bar {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  min-width: 30%;
+  border: 1px solid #5f6368;
+  border-radius: 50px;
+  margin-bottom: 1.125em;
+}
+
+.info-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__link-right,
+.footer__link {
+  color: var(--primary-color);
+}
+
+.footer__link-right {
+  margin-left: 1.25em;
+}
+
+.footer__link-left {
+  color: var(--primary-color);
+  margin-right: 1.25em;
+}
+
+.account-icon,
+.info-right {
+  padding-right: 1.25em;
+}
+
+.info-left {
+  padding-left: 1.25em;
+}
+
+footer {
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current__location {
+  margin: 0;
+  padding-left: 1em;
+  padding-top: 0.9375em;
+  padding-bottom: 0.9375em;
+  border-bottom: 1px solid rgba(48, 49, 52, 0.5);
+}
+
+.info-holder {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.logo {
+  object-fit: center;
+  margin-bottom: 1.25em;
+}
+
+.submit-btn {
+  margin: 11px 4px;
+  padding: 0.4em 0.6em;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.fa-magnifying-glass {
+  color: var(--primary-color);
+  padding-left: 1em;
+  font-size: 12px;
+}
+
+.fa-microphone-lines {
+  color: var(--primary-color);
+  font-size: 14px;
+  padding-right: 1em;
+}
+
+/* Pseudo */
+
+footer a:focus,
+header a:focus {
+  text-decoration: none;
+}
+
+footer a:hover,
+header a:hover {
+  text-decoration: underline;
+  border: 0;
+}
+
+.submit-btn:focus,
+.submit-btn:hover {
+  border: 1px solid var(--primary-color);
+}
+
+.text-area:hover,
+.search-bar:hover {
+  background-color: var(--secondary-bg-color);
+  border: 1px solid rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+.fa-magnifying-glass:focus,
+.search-bar:focus,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.language-selection:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit-buttons {
+    display: flex;
+  }
+  .search-bar {
+    width: 100%;
+  }
+}
