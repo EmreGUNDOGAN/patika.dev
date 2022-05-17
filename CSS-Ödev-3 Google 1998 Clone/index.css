@@ -41,3 +41,57 @@ h2 {
 .copyright-par {
   font-size: 0.725rem;
 }
+
+/* layout */
+
+.slogan {
+  margin: 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-area {
+  background-color: #eeeeeeff;
+  margin-bottom: 0.25em;
+}
+
+.search-bar {
+  width: 25em;
+}
+
+.footer-left {
+  background-color: #7fe5db;
+  width: 29.5%;
+}
+
+.footer-mid {
+  background-color: #70cdc3;
+  width: 20%;
+}
+
+.footer-right {
+  background-color: #63b2aa;
+  width: 50%;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+width: 35%;
+  margin: 0 auto;
+}
+
+.subscribe-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.archieve-link{
+    margin-left: 0.25em;
+}
