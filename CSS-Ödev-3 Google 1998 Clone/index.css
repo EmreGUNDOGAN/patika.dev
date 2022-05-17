@@ -12,11 +12,7 @@ body {
   margin: 0;
 }
 
-.container {
-  width: 90%;
-  margin-inline: auto;
-  text-align: center;
-}
+
 
 /*  Typography */
 
@@ -44,6 +40,12 @@ h2 {
 
 /* layout */
 
+.container {
+    width: 95%;
+    margin-inline: auto;
+    text-align: center;
+  }
+
 .slogan {
   margin: 0;
 }
@@ -70,6 +72,7 @@ h2 {
 .footer-mid {
   background-color: #70cdc3;
   width: 20%;
+  padding-top: 0.25em;
 }
 
 .footer-right {
@@ -80,10 +83,11 @@ h2 {
 .link {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 img {
-width: 35%;
+  width: 35%;
   margin: 0 auto;
 }
 
@@ -92,6 +96,19 @@ width: 35%;
   justify-content: center;
 }
 
-.archieve-link{
-    margin-left: 0.25em;
+.archieve-link {
+  margin-left: 0.25em;
+}
+
+.search-title,
+.subs-title {
+  margin-bottom: 0;
+}
+
+.subs-title {
+  margin: 0;
+}
+
+.link {
+  margin: 0;
 }
