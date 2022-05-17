@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin-inline: auto;
+  text-align: center;
+}
+
+/*  Typography */
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+.slogan {
+  font-size: 1.25rem;
+}
+
+.link {
+  list-style-type: none;
+}
+
+.subs-title,
+.search-title {
+  font-size: 1rem;
+}
+
+.copyright-par {
+  font-size: 0.725rem;
+}
