@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffecd1;
+  margin: 0;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/* ===================
+Typography
+======================*/
+
+.logo {
+  font-size: 3rem;
+  margin: 0;
+}
+
+footer,
+.logo,
+.nav-item a {
+  font-weight: 900;
+  color: #fff;
+}
+
+.main-title {
+  font-size: 3rem;
+  color: #78290f;
+}
+
+.bicycle-list ul,
+.par {
+  font-size: 1.25rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #78290f;
+}
+
+footer,
+header {
+  background-color: #15616d;
+  font-weight: 900;
+}
+
+.footer-info {
+  letter-spacing: 1px;
+}
+
+.bicyle-btn a {
+  color: white;
+}
+
+/* ===================
+Layout
+======================*/
+
+.index-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
+.products-title {
+  margin: 1em 0;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.subtitle {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.bicycle-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+}
+
+.bicycle-list li {
+  padding: 1em 2.25em;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  background-color: #15616d;
+  border: 2px solid gray;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.bicycle-list a {
+  text-decoration: none;
+}
+
+.par-important {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+footer {
+  display: flex;
+  padding: 3em;
+  justify-content: space-between;
+}
+
+.product-img {
+  max-width: 400px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.bicyle-image-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.product-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 7em;
+}
+
+.bicyle-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-us-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about-us-subtitle {
+  margin: 0;
+  margin-top: 3em;
+}
+
+.about-us-footer {
+  margin-top: 3.5em;
+}
+
+/* ===================
+Navigation
+======================*/
+
+.navbar {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  margin-left: 2.5em;
+  font-size: 1.25rem;
+}
+
+.logo {
+  padding: 0.25em 1em;
+}
